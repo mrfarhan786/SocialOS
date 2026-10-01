@@ -2,7 +2,7 @@ import { z } from 'zod';
 
 export function toolDefinitions() {
   const tools = [];
-  const add = (name, description, fields, run) => tools.push({ name, description, schema: z.object(fields).strict(), run });
+  const add = (name, description, fields, run) => tools.push({ name, description, schema: z.object(fields).strict(), fields, run });
 
   add(
     'generate_brand_strategy',

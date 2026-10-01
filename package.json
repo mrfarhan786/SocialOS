@@ -6,7 +6,8 @@
   "description": "Local SocialOS content intelligence and production workspace",
   "engines": {"node": ">=22.13.0"},
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "mcp": "node src/mcp.js"
   },
   "dependencies": {"@modelcontextprotocol/sdk": "^1.0.0", "zod": "^3.25.0"}
 }
