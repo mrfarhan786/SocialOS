@@ -42,8 +42,8 @@ export function generateOpenApiSpec() {
     },
     servers: [
       {
-        url: 'https://YOUR_NGROK_URL.ngrok.app',
-        description: 'Replace with your actual public URL'
+        url: 'https://socialos.onrender.com',
+        description: 'SocialOS Production Server'
       }
     ],
     paths
