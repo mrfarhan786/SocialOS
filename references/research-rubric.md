@@ -29,6 +29,21 @@ Keep these layers separate. Never present an inference as a tool result.
 
 Evergreen popularity is not breakout momentum. Label evergreen topics `Evergreen`, not `Rising`.
 
+## Deep research protocol (no tool connected, or the user chose SocialOS deep research)
+
+Act as a top-tier content research engineer. Search YouTube and the web directly, inside the trend window (7–10 days) and the selected breakout window (30/60/90 days).
+
+1. **Query matrix**: niche × sub-niches × reference topic clusters × format words (documentary, explained, story of, how, why). Use 15–30 queries over at least 3 waves, until new results stop appearing.
+2. **YouTube scan**: search results by upload date (this week, this month, inside the window) and by view count. Also scan Trending/Explore, channel Popular/Latest tabs, and Shorts shelves when the format is relevant.
+3. **Channel scan**: for each top video, open the channel. Record subscribers, upload count, first public upload observed, and the last 10–20 uploads with views and dates.
+4. **Corroboration**: Google Trends, news, Reddit/forums and public stats pages. Attach a source to every figure.
+5. **Breakout math** (observed numbers only): views ÷ channel median, views ÷ subscribers, views per day since upload, and repeat-breakout count.
+
+Output a **Breakout channels** table before the topic table, sorted by outlier strength inside the window:
+`# | Channel | First upload observed | Subs | Uploads in window | Median views | Best video (views, age) | Views/day | Outlier × | Format | Why it's breaking out`
+
+Write "Not observed" for any missing number. Never estimate earnings.
+
 ## Reference discovery
 
 Find 3–5 references in the niche that match the production type: one leader, one or two breakouts inside the window, one adjacent style. Mark them `discovered` with a one-line reason.

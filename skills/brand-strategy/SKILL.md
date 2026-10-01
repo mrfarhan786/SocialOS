@@ -13,4 +13,4 @@ For each platform, state its purpose and production burden, and recommend a sust
 
 Deliver: objective, audience, promise, differentiation, pillars, platform roles, capacity, first experiments and review trigger. Planned dates are intentions, not schedules.
 
-All user questions: strict Question format in `../../references/interaction-flow.md` (interactive choice UI + `Custom — type your own`).
+All user questions: FIXED/GEN menus from `../../references/interaction-flow.md`, word for word, ending with `Custom — type your own` (GEN also gets `↻ Retry`).

@@ -28,4 +28,4 @@ Show the S16 menu (`../../references/interaction-flow.md`).
 - Approval of content, script, storyboard, images or prompts never authorizes video.
 - Never auto-render.
 
-All user questions: strict Question format in `../../references/interaction-flow.md` (interactive choice UI + `Custom — type your own`).
+All user questions: FIXED/GEN menus from `../../references/interaction-flow.md`, word for word, ending with `Custom — type your own` (GEN also gets `↻ Retry`).

@@ -9,7 +9,7 @@ Standards: `../../references/research-rubric.md`. State: `../../references/proje
 
 ## Niche mode
 
-Used for a new channel with no niche and no references, or for standalone trending niches. Output one table of 10 niches with columns `# | Niche | Evidence | Recent Growth | Monetization | Competition | Visual Fit | Longevity | Opportunity`. Then ask: **Choose a niche number, type your own, or say More.** Then return to reference discovery.
+Used for a new channel with no niche and no references, or for standalone trending niches. Output one table of 10 niches with columns `# | Niche | Evidence | Recent Growth | Monetization | Competition | Visual Fit | Longevity | Opportunity`. Then show GEN **Choose a niche.** with `↻ Retry` and Custom. Then return to reference discovery.
 
 ## Topic mode
 
@@ -22,6 +22,10 @@ Research:
 4. Reference gaps and whitespace from `SYNTHESIS`.
 5. Fit with the production type. For faceless, AI or animation channels, rank visually explainable topics higher.
 
+## No tool connected → SocialOS deep research
+
+Act as a top-tier content research engineer. Run the Deep research protocol in `../../references/research-rubric.md` at full depth inside the selected window. Add the **Breakout channels** table before the topic table.
+
 ## Output: one table only
 
 `# | Type | Topic / Proposed Title | Evidence | Recent Growth | Trend | Reach | Engagement | Monetization | Competition | Longevity | Visual Fit | Channel Fit | Opportunity`
@@ -30,8 +34,8 @@ Research:
 - Rows 11–20, `SocialOS`: angle-engineered opportunities built from winners, trends, gaps, audience psychology, positioning and packaging. In the Evidence column, cite the basis (for example "Gap from #2/#5"). No paraphrased titles.
 - Rank rows by the internal opportunity method. Use labels only.
 
-Then ask only: **Choose a topic number, type your own topic, or say More for another 10 opportunities using the same criteria.**
+Then show only GEN **Choose a topic.** (rows 1–20 · `↻ Retry` · Custom). In research mode, follow with the FIXED **Topic saved. What next?**
 
-**More**: use the same criteria, exclude every entry in `shown_titles`, and refresh trend evidence only if it is `stale`.
+**Retry / More**: use the same criteria, exclude every entry in `shown_titles`, and refresh trend evidence only if it is `stale`.
 
-All user questions: strict Question format in `../../references/interaction-flow.md` (interactive choice UI + `Custom — type your own`).
+All user questions: FIXED/GEN menus from `../../references/interaction-flow.md`, word for word, ending with `Custom — type your own` (GEN also gets `↻ Retry`).

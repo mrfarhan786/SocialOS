@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "social-os",
-  "version": "1.0.0",
+  "version": "3.1.0",
   "description": "Reference-first social-content operating system: competitor intelligence, breakout and trend topic research, guided scripts, storyboards and visual production, with an approval-gated video workflow.",
   "author": {
     "name": "SocialOS"

@@ -14,12 +14,12 @@ Runs only after `SYNTHESIS` exists. Menus: `../../references/interaction-flow.md
 3. **Name intelligence**: 10 **high-potential channel-name candidates**. Never call them "guaranteed" or "ranking" names. Never imitate reference names, and avoid confusing similarity and trademarks.
    Table: `# | Name | Positioning | Distinctiveness | Memorability | Niche Association | Extensibility | Search Relevance | Pronunciation | Differentiation | Longevity`
    Use labels only. Check handle availability only when a tool can verify it, otherwise write "Unverified".
-   Then ask: **Choose a name number, type your own, or say More.**
+   Then show GEN **Choose a channel name.** with the rows, `↻ Retry` and Custom.
 4. **Identity** (automatic): audience, positioning statement, description, handle ideas, content pillars and brand direction.
-5. **Branding assets**: use the menu. Generate assets only when the user chooses to and the host supports it. Never call a prompt a generated asset.
+5. **Branding assets**: S5 FIXED menu. Generate assets only when the user chooses to and the host supports it. Never call a prompt a generated asset.
 
 ## Existing channel
 
 Read the gap map. Ask the positioning question only when a material shift is recommended. Otherwise save the current positioning as `confirmed` and continue.
 
-All user questions: strict Question format in `../../references/interaction-flow.md` (interactive choice UI + `Custom — type your own`).
+All user questions: FIXED/GEN menus from `../../references/interaction-flow.md`, word for word, ending with `Custom — type your own` (GEN also gets `↻ Retry`).

@@ -1,4 +1,4 @@
-# SocialOS 3.0.1
+# SocialOS 3.1.0
 
 SocialOS is a reference-first, guided social-content operating system. It is a skills-only plugin that uses the host's web research, connected tools (with your approval) and image generation.
 
@@ -17,7 +17,9 @@ Intent → Platform → New / Existing
 
 ## Rules
 
-- Asks one question at a time, only for decisions, always as interactive choices with a Custom option.
+- Uses predefined questions (fixed wording and options). Only niches, positioning, names, topics and packaging are generated, and those come with ↻ Retry.
+- Every question is a selectable choice ending with Custom.
+- Without a research tool, runs its own deep YouTube research inside the 30/60/90-day window.
 - Never re-asks known information or repeats research.
 - Never fabricates earnings, transcripts, channel age or analytics.
 - Video renders only after you choose **Generate videos**.
