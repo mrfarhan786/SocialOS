@@ -45,3 +45,5 @@ Group scenes by chapter. Timestamps must be contiguous and cover the runtime. Sc
 | SC002 | 00:08–00:24 | … | Open loop | … |
 
 Save as `script_rev`. Then show the S10.5 checkpoint. Do not start expensive or external generation without the matching selection.
+
+All user questions: strict Question format in `../../references/interaction-flow.md` (interactive choice UI + `Custom — type your own`).

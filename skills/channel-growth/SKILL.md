@@ -21,3 +21,5 @@ Runs only after `SYNTHESIS` exists. Menus: `../../references/interaction-flow.md
 ## Existing channel
 
 Read the gap map. Ask the positioning question only when a material shift is recommended. Otherwise save the current positioning as `confirmed` and continue.
+
+All user questions: strict Question format in `../../references/interaction-flow.md` (interactive choice UI + `Custom — type your own`).

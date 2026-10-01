@@ -1,4 +1,4 @@
-# SocialOS 3.0.0
+# SocialOS 3.0.1
 
 SocialOS is a reference-first, guided social-content operating system. It is a skills-only plugin that uses the host's web research, connected tools (with your approval) and image generation.
 
@@ -17,7 +17,7 @@ Intent → Platform → New / Existing
 
 ## Rules
 
-- Asks one question at a time, only for decisions.
+- Asks one question at a time, only for decisions, always as interactive choices with a Custom option.
 - Never re-asks known information or repeats research.
 - Never fabricates earnings, transcripts, channel age or analytics.
 - Video renders only after you choose **Generate videos**.

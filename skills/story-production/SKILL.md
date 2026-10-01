@@ -11,3 +11,5 @@ description: Convert an approved SocialOS script into Story → Chapter → Scen
 - Every unit has start, end and duration. Units are contiguous and cover the full runtime. No shot exceeds the limit.
 - Each shot records narration alignment, visual intent, and the CHAR/WORLD/OBJECT IDs it uses. Write `dependencies` (bible → shots, scene → shots).
 - Revisions change only affected units and preserve stable IDs.
+
+All user questions: strict Question format in `../../references/interaction-flow.md` (interactive choice UI + `Custom — type your own`).

@@ -27,3 +27,5 @@ Show the S16 menu (`../../references/interaction-flow.md`).
 - A material package change requires fresh approval.
 - Approval of content, script, storyboard, images or prompts never authorizes video.
 - Never auto-render.
+
+All user questions: strict Question format in `../../references/interaction-flow.md` (interactive choice UI + `Custom — type your own`).

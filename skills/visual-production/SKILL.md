@@ -55,3 +55,5 @@ Check style, identity, wardrobe, face/age, environment, objects, architecture, l
 ## Revisions
 
 Resolve the entity, read `dependencies`, count the affected shots, then show the S14 menu. Update only the dependents and bump their versions. Never restart the project.
+
+All user questions: strict Question format in `../../references/interaction-flow.md` (interactive choice UI + `Custom — type your own`).

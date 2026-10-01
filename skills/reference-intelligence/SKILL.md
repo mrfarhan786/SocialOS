@@ -31,3 +31,5 @@ Write `SYNTHESIS`: common, breakout and oversaturated patterns, whitespace, audi
 ## Output
 
 One compact table with one row per reference plus a **Synthesis** row. Columns: `Ref | Positioning | Top topics | Title/thumbnail pattern | Cadence / duration | Breakouts | Story mechanics | Visual style | Gaps`. No prose. Then continue to the next stage's question.
+
+All user questions: strict Question format in `../../references/interaction-flow.md` (interactive choice UI + `Custom — type your own`).

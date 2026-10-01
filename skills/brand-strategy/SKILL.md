@@ -12,3 +12,5 @@ Before a consequential strategic choice, offer 2–4 alternatives with a one-lin
 For each platform, state its purpose and production burden, and recommend a sustainable portfolio. Research volatile platform claims with sources. Unknown language, budget, offers and history stay unknown.
 
 Deliver: objective, audience, promise, differentiation, pillars, platform roles, capacity, first experiments and review trigger. Planned dates are intentions, not schedules.
+
+All user questions: strict Question format in `../../references/interaction-flow.md` (interactive choice UI + `Custom — type your own`).

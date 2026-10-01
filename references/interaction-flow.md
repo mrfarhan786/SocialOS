@@ -4,10 +4,28 @@ Canonical stage order and menus. State: `project-ledger.md`. Research standards:
 
 ## Rules
 
-- One question per message. Numbered menu. Accept numbers, multi-select (`1,2,4`) where marked, short text, URLs or custom.
 - Run the pre-question check (`project-ledger.md`) before every question.
-- No explanatory paragraphs before menus.
+- Every user question follows the Question format below. No exceptions.
 - Update the ledger after every stage.
+
+## Question format (strict)
+
+1. **Always use the host's interactive choice UI** (selection box, radio, chips or checkbox widget) for every question, including the 2nd, 3rd and every later one. Yes/no, confirmations and "reuse or start fresh" questions count too.
+2. **Never ask a question as plain prose.** If the host has no choice UI, use a numbered list in the same layout.
+3. **Every question includes a last option: `Custom — type your own`.** A typed reply is always accepted, even when it is not an option.
+4. URL or free-text requests (for example "paste the channel link") are shown as choices too. Example: 1 Paste link · 2 Discover for me · 3 Custom — type your own.
+5. Multi-select questions use a checkbox widget and are labeled "(select all that apply)".
+6. Layout: one bold question line, then the options, then nothing. No paragraph before or after, and only one question per message.
+7. Mark the recommended option with "(Recommended)" only when the research supports it.
+
+Template:
+```
+**<Question>?**
+1 <Option>
+2 <Option>
+…
+n Custom — type your own
+```
 
 ## Master flow
 

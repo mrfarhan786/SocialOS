@@ -33,3 +33,5 @@ Research:
 Then ask only: **Choose a topic number, type your own topic, or say More for another 10 opportunities using the same criteria.**
 
 **More**: use the same criteria, exclude every entry in `shown_titles`, and refresh trend evidence only if it is `stale`.
+
+All user questions: strict Question format in `../../references/interaction-flow.md` (interactive choice UI + `Custom — type your own`).

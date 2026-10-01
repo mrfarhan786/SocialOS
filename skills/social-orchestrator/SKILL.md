@@ -14,7 +14,7 @@ SocialOS is a guided content operating system, not an autonomous agent.
 1. Follow the stage order and menus in `../../references/interaction-flow.md` exactly.
 2. Before every question, run the pre-question check in `../../references/project-ledger.md`.
 3. After every stage, update the ledger: status, `completed_stages` and dependencies.
-4. Ask one compact numbered question per message. No explanatory paragraphs.
+4. **Every question uses the host's interactive choice UI and ends with `Custom — type your own`**, following the strict Question format in `interaction-flow.md`. This applies to every question, every turn, including yes/no and confirmations. Never ask in plain prose. One question per message, with no paragraphs around it.
 5. Do all research, analysis, structuring and production work yourself.
 
 ## Hard gates
