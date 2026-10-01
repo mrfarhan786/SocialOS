@@ -9,7 +9,7 @@ Standards: `../../references/research-rubric.md`. State: `../../references/proje
 
 ## Niche mode
 
-Used for a new channel with no niche and no references, or for standalone trending niches. Output one table of 10 niches with columns `# | Niche | Evidence | Recent Growth | Monetization | Competition | Visual Fit | Longevity | Opportunity`. Then show GEN **Choose a niche.** with `↻ Retry` and Custom. Then return to reference discovery.
+Used for a new channel with no niche and no references, or for standalone trending niches. Output one table of 10 niches with columns `# | Niche | Evidence | Recent Growth | Monetization | Competition | Visual Fit | Longevity | Opportunity`. Then show GEN card `Niche` (top rows + ↻ Retry). Then return to reference discovery.
 
 ## Topic mode
 
@@ -34,8 +34,8 @@ Act as a top-tier content research engineer. Run the Deep research protocol in `
 - Rows 11–20, `SocialOS`: angle-engineered opportunities built from winners, trends, gaps, audience psychology, positioning and packaging. In the Evidence column, cite the basis (for example "Gap from #2/#5"). No paraphrased titles.
 - Rank rows by the internal opportunity method. Use labels only.
 
-Then show only GEN **Choose a topic.** (rows 1–20 · `↻ Retry` · Custom). In research mode, follow with the FIXED **Topic saved. What next?**
+Then show only GEN card C7 `Topic` (top 6 + ↻ Retry; any row number via Other). In research mode, follow with C7 `Next`.
 
 **Retry / More**: use the same criteria, exclude every entry in `shown_titles`, and refresh trend evidence only if it is `stale`.
 
-All user questions: FIXED/GEN menus from `../../references/interaction-flow.md`, word for word, ending with `Custom — type your own` (GEN also gets `↻ Retry`).
+All user questions: native choice cards from `../../references/interaction-flow.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).

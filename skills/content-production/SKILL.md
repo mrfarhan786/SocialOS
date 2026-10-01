@@ -12,7 +12,7 @@ Menus: `../../references/interaction-flow.md` S9–S10.5.
 Never jump from topic selection to the script.
 
 1. Internally build 4–6 packages. Each has title, thumbnail concept, story angle, opening promise, target viewer, emotional or intellectual driver, supporting reference evidence and positioning fit.
-2. Show the strongest 3–5 as GEN **Which direction should we use?** (direction + title per row · `↻ Retry` · Custom).
+2. Show the strongest 3–5 in a table, then GEN card C8 `Direction` (top rows + ↻ Retry).
 3. After the user picks one, show **Title · Thumbnail idea · Promise · Hook direction** in 4 lines, then the script gate.
 
 ## Script engine
@@ -46,4 +46,4 @@ Group scenes by chapter. Timestamps must be contiguous and cover the runtime. Sc
 
 Save as `script_rev`. Then show the S10.5 checkpoint. Do not start expensive or external generation without the matching selection.
 
-All user questions: FIXED/GEN menus from `../../references/interaction-flow.md`, word for word, ending with `Custom — type your own` (GEN also gets `↻ Retry`).
+All user questions: native choice cards from `../../references/interaction-flow.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).

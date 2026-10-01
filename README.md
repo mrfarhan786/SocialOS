@@ -17,8 +17,8 @@ Intent → Platform → New / Existing
 
 ## Rules
 
-- Uses predefined questions (fixed wording and options). Only niches, positioning, names, topics and packaging are generated, and those come with ↻ Retry.
-- Every question is a selectable choice ending with Custom.
+- Every question is a native ChatGPT choice card: up to 7 option buttons, an Other box, and Submit/Continue.
+- Labels are predefined. Only niches, positioning, names, topics and packaging are generated, and those come with ↻ Retry.
 - Without a research tool, runs its own deep YouTube research inside the 30/60/90-day window.
 - Never re-asks known information or repeats research.
 - Never fabricates earnings, transcripts, channel age or analytics.

@@ -44,6 +44,8 @@ Motion intent: …
 
 Keep every shot addressable internally for revisions.
 
+**Copyable prompts:** put every prompt in its own fenced code block (```text) so the host shows a Copy button. Put the shot ID and timestamp on the line above the block, as plain text, and only the prompt inside it. One prompt per block, never combined.
+
 ## Image generation
 
 Generate only after an S13 choice. Every run follows: test batch of 3–5 representative shots → QC → lock bibles → remaining batches. Do not ask the user to approve internal batches unless an issue is material. Link outputs to shot IDs.
@@ -56,4 +58,4 @@ Check style, identity, wardrobe, face/age, environment, objects, architecture, l
 
 Resolve the entity, read `dependencies`, count the affected shots, then show the S14 menu. Update only the dependents and bump their versions. Never restart the project.
 
-All user questions: FIXED/GEN menus from `../../references/interaction-flow.md`, word for word, ending with `Custom — type your own` (GEN also gets `↻ Retry`).
+All user questions: native choice cards from `../../references/interaction-flow.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).

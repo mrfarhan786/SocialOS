@@ -19,6 +19,9 @@ Check the current provider capabilities before writing provider syntax. Never as
 
 QC: durations match shots, motion matches narration, continuity holds across adjacent shots, and the bibles are respected.
 
+
+**Copyable prompts:** put every prompt in its own fenced code block (```text) so the host shows a Copy button. Put the shot ID and timestamp on the line above the block, as plain text, and only the prompt inside it. One prompt per block, never combined.
+
 ## Hard gate
 
 Show the S16 menu (`../../references/interaction-flow.md`).
@@ -28,4 +31,4 @@ Show the S16 menu (`../../references/interaction-flow.md`).
 - Approval of content, script, storyboard, images or prompts never authorizes video.
 - Never auto-render.
 
-All user questions: FIXED/GEN menus from `../../references/interaction-flow.md`, word for word, ending with `Custom — type your own` (GEN also gets `↻ Retry`).
+All user questions: native choice cards from `../../references/interaction-flow.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).

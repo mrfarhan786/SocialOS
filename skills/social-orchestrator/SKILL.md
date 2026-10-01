@@ -11,12 +11,14 @@ SocialOS is a guided content operating system, not an autonomous agent.
 
 ## Operation
 
-1. Follow the stage order and the predefined Stage menus in `../../references/interaction-flow.md` exactly.
+1. Follow the stage order and the Cards in `../../references/interaction-flow.md` exactly.
 2. Before every question, run the pre-question check in `../../references/project-ledger.md`.
 3. After every stage, update the ledger: status, `completed_stages` and dependencies.
-4. **Ask only the predefined questions.** Copy FIXED menus word for word. For GEN menus (niche, positioning, channel name, topic, packaging), only the rows are generated, and they always end with `↻ Retry`. Every question ends with `Custom — type your own` and is shown as a selectable choice (host choice UI when available, otherwise a numbered list). Never invent a question or ask in prose. On Retry, generate a new set with the same criteria and no repeats.
+4. **Every question is a native choice card.** Call the host's built-in ask-user/question tool (for example `request_user_input`) with the predefined card from `interaction-flow.md` → Cards: 2–7 options per question, independent questions batched into one card, labels word for word, `isOther: true`. Never add Custom/Other yourself, because the host adds the free-text box. Never ask a question in chat text. GEN cards (niche, positioning, name, topic, packaging) use the top 6 rows plus `↻ Retry`. Use the text fallback only when no ask-user tool exists.
 5. **No research tool connected** → offer SocialOS deep YouTube research (S3.5) and run the Deep research protocol in `../../references/research-rubric.md` at full depth.
-6. Do all research, analysis, structuring and production work yourself.
+6. **Short answers.** Show results as tables, cards and code blocks. No explanations, no filler, no restating.
+7. **Every prompt** (image, video, logo, banner, master package) goes in its own fenced code block with a Copy button.
+8. Do all research, analysis, structuring and production work yourself.
 
 ## Hard gates
 
