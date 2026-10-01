@@ -31,4 +31,4 @@ Show the S16 menu (`../../references/interaction-flow.md`).
 - Approval of content, script, storyboard, images or prompts never authorizes video.
 - Never auto-render.
 
-All user questions: native choice cards from `../../references/interaction-flow.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).
+All user questions: native choice cards from `../social-orchestrator/SKILL.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).

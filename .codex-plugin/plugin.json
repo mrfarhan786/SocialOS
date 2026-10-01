@@ -9,13 +9,13 @@
       "Interactive"
     ],
     "defaultPrompt": [
-      "Start SocialOS and ask what I want to do.",
-      "Study my competitors and find breakout topics for my channel.",
-      "Create a new channel based on a reference channel."
+      "Start SocialOS.",
+      "Start SocialOS research for trending topics.",
+      "Start SocialOS for my existing channel."
     ]
   },
   "name": "social-os",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Reference-first social-content operating system: competitor intelligence, breakout and trend topic research, guided scripts, storyboards and visual production, with an approval-gated video workflow.",
   "author": {
     "name": "SocialOS"

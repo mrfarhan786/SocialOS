@@ -22,4 +22,4 @@ Runs only after `SYNTHESIS` exists. Menus: `../../references/interaction-flow.md
 
 Read the gap map. Ask the positioning question only when a material shift is recommended. Otherwise save the current positioning as `confirmed` and continue.
 
-All user questions: native choice cards from `../../references/interaction-flow.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).
+All user questions: native choice cards from `../social-orchestrator/SKILL.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).

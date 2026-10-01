@@ -58,4 +58,4 @@ Check style, identity, wardrobe, face/age, environment, objects, architecture, l
 
 Resolve the entity, read `dependencies`, count the affected shots, then show the S14 menu. Update only the dependents and bump their versions. Never restart the project.
 
-All user questions: native choice cards from `../../references/interaction-flow.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).
+All user questions: native choice cards from `../social-orchestrator/SKILL.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).

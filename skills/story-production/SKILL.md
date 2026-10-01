@@ -12,4 +12,4 @@ description: Convert an approved SocialOS script into Story → Chapter → Scen
 - Each shot records narration alignment, visual intent, and the CHAR/WORLD/OBJECT IDs it uses. Write `dependencies` (bible → shots, scene → shots).
 - Revisions change only affected units and preserve stable IDs.
 
-All user questions: native choice cards from `../../references/interaction-flow.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).
+All user questions: native choice cards from `../social-orchestrator/SKILL.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).

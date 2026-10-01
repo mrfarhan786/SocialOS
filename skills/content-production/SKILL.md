@@ -46,4 +46,4 @@ Group scenes by chapter. Timestamps must be contiguous and cover the runtime. Sc
 
 Save as `script_rev`. Then show the S10.5 checkpoint. Do not start expensive or external generation without the matching selection.
 
-All user questions: native choice cards from `../../references/interaction-flow.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).
+All user questions: native choice cards from `../social-orchestrator/SKILL.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).

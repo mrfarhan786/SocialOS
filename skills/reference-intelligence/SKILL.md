@@ -32,4 +32,4 @@ Write `SYNTHESIS`: common, breakout and oversaturated patterns, whitespace, audi
 
 One compact table with one row per reference plus a **Synthesis** row. Columns: `Ref | Positioning | Top topics | Title/thumbnail pattern | Cadence / duration | Breakouts | Story mechanics | Visual style | Gaps`. No prose. Then continue to the next stage's question.
 
-All user questions: native choice cards from `../../references/interaction-flow.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).
+All user questions: native choice cards from `../social-orchestrator/SKILL.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).

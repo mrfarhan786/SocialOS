@@ -1,4 +1,4 @@
-# SocialOS 3.1.0
+# SocialOS 3.1.1
 
 SocialOS is a reference-first, guided social-content operating system. It is a skills-only plugin that uses the host's web research, connected tools (with your approval) and image generation.
 

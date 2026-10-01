@@ -38,4 +38,4 @@ Then show only GEN card C7 `Topic` (top 6 + ↻ Retry; any row number via Other)
 
 **Retry / More**: use the same criteria, exclude every entry in `shown_titles`, and refresh trend evidence only if it is `stale`.
 
-All user questions: native choice cards from `../../references/interaction-flow.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).
+All user questions: native choice cards from `../social-orchestrator/SKILL.md` → Cards (host ask-user tool, 2–7 options, host-added Other box).
