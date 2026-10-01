@@ -1,0 +1,32 @@
+{
+  "interface": {
+    "displayName": "SocialOS",
+    "shortDescription": "Guided content production",
+    "longDescription": "Guided social-content workflow with tool-first current trend research, channel/video configuration, scripts, hierarchical storyboards, visual consistency, image generation, and a mandatory user approval checkpoint before video generation.",
+    "developerName": "SocialOS",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Start SocialOS and ask what I want to do.",
+      "Help me create content for a social platform.",
+      "Research current content opportunities for my channel."
+    ]
+  },
+  "name": "social-os",
+  "version": "2.1.0",
+  "description": "Interactive social-content operating system with tool-first trend research, channel and video configuration, scripts, storyboards, image production, and approval-gated video workflows.",
+  "author": {
+    "name": "SocialOS"
+  },
+  "keywords": [
+    "social-media",
+    "youtube",
+    "content",
+    "trend-research",
+    "storyboard",
+    "production"
+  ],
+  "skills": "./skills"
+}
