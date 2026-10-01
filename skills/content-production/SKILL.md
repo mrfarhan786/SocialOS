@@ -1,14 +1,47 @@
 ---
 name: content-production
-description: Turn a selected SocialOS topic into a researched outline, full script, hooks, calls to action and platform-ready master content with a compact review checkpoint.
+description: SocialOS packaging engine and world-class retention-focused script engine. Turn a selected topic into title, thumbnail, promise and hook, then a timed chapter/scene script table, and end with the script checkpoint.
 ---
 
-# Content production
+# Packaging and script
 
-Use the established project/channel context. Topic selection normally occurs only after channel production type, video/content type, duration, visual/video style and the tool-first topic-research gate have been resolved. Do not ask the user to supply a topic prematurely when they asked SocialOS to discover opportunities.
+Menus: `../../references/interaction-flow.md` S9–S10.5.
 
-After topic selection, research factual claims using current authoritative evidence where needed. Create a coherent architecture before detailed visuals. For long-form work, use chapters/sequences as appropriate. Treat the approved outline and full master script as canonical working content. Match target duration realistically without padding weak material.
+## Packaging engine
 
-After the script is ready, present a compact checkpoint: Continue; Edit; Regenerate; Change tone; Change duration. Do not proceed into visual production until the user chooses to continue or explicitly requested later stages.
+Never jump from topic selection to the script.
 
-Platform variants should fulfill the same approved promise while adapting packaging, pacing and CTA.
+1. Internally build 4–6 packages. Each has title, thumbnail concept, story angle, opening promise, target viewer, emotional or intellectual driver, supporting reference evidence and positioning fit.
+2. Show the strongest 3–5 as directions in one compact table, then the S9 menu.
+3. After the user picks one, show **Title · Thumbnail idea · Promise · Hook direction** in 4 lines, then the script gate.
+
+## Script engine
+
+Inputs: topic, verified research, reference `story_mechanics`, positioning, package, duration, production type, style and audience.
+
+Optimize for:
+- clarity and a gripping first 5–10 seconds
+- curiosity and open loops
+- escalating information and visual progression
+- pattern interruptions and re-hooks
+- meaningful reveals and a satisfying payoff
+- a natural CTA
+
+No empty clickbait. Every title and thumbnail promise must be fulfilled.
+
+Architecture: Cold open → Promise → Setup (only necessary context) → Escalating discoveries (each opens the next question before closing the last) → Re-hooks (about every 45–90 s, as a heuristic) → Major reveal → Payoff → Natural CTA.
+
+Length: plan for about 140–160 spoken words per minute. Do not pad.
+
+Fact-check claims with current sources. Write original narration. Never reuse a reference creator's script.
+
+## Canonical format
+
+Group scenes by chapter. Timestamps must be contiguous and cover the runtime. Scene length is semantic and does not follow clip limits.
+
+| Scene | Time | Narration / Dialogue | Story Purpose | Visual Intent |
+|---|---|---|---|---|
+| SC001 | 00:00–00:08 | … | Cold open | … |
+| SC002 | 00:08–00:24 | … | Open loop | … |
+
+Save as `script_rev`. Then show the S10.5 checkpoint. Do not start expensive or external generation without the matching selection.

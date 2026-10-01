@@ -1,8 +1,8 @@
 {
   "interface": {
     "displayName": "SocialOS",
-    "shortDescription": "Guided content production",
-    "longDescription": "Guided social-content workflow with tool-first current trend research, channel/video configuration, scripts, hierarchical storyboards, visual consistency, image generation, and a mandatory user approval checkpoint before video generation.",
+    "shortDescription": "Reference-first content production",
+    "longDescription": "Guided content workflow that studies reference/competitor channels first, researches 7–10 day trends and 30/60/90-day breakouts, builds packaging and retention-focused scripts, timed storyboards, consistent visual production packages and image QC, and never renders video without explicit approval.",
     "developerName": "SocialOS",
     "category": "Productivity",
     "capabilities": [
@@ -10,13 +10,13 @@
     ],
     "defaultPrompt": [
       "Start SocialOS and ask what I want to do.",
-      "Help me create content for a social platform.",
-      "Research current content opportunities for my channel."
+      "Study my competitors and find breakout topics for my channel.",
+      "Create a new channel based on a reference channel."
     ]
   },
   "name": "social-os",
-  "version": "2.1.0",
-  "description": "Interactive social-content operating system with tool-first trend research, channel and video configuration, scripts, storyboards, image production, and approval-gated video workflows.",
+  "version": "3.0.0",
+  "description": "Reference-first social-content operating system: competitor intelligence, breakout and trend topic research, guided scripts, storyboards and visual production, with an approval-gated video workflow.",
   "author": {
     "name": "SocialOS"
   },
@@ -24,6 +24,7 @@
     "social-media",
     "youtube",
     "content",
+    "competitor-research",
     "trend-research",
     "storyboard",
     "production"

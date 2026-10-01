@@ -1,12 +1,29 @@
 ---
 name: ai-video-production
-description: Prepare SocialOS shot-level video prompts from approved storyboards and visuals, enforce continuity and stop at the explicit video-generation authorization gate.
+description: Prepare SocialOS shot-level video prompts from QC-approved visuals, run video-prompt QC, and stop at the hard explicit video-generation approval gate.
 ---
 
-# AI video production
+# Video preproduction
 
-Prepare video prompts only after the storyboard and required visual references are ready. For each shot include stable shot ID, reference image/asset when available, duration, subject motion, camera motion, environmental motion, start/end state, continuity requirements and negative constraints.
+Runs after image QC, or after prompts if images are made elsewhere.
 
-Provider-specific syntax may be added only after checking the provider's current capabilities. Never assume supported duration, reference count, audio, lip-sync or camera controls.
+Each shot prompt includes:
+- stable shot ID and source/reference image
+- duration
+- subject, camera and environmental motion
+- start and end state
+- continuity rules
+- negative constraints
 
-Video prompt generation is not video rendering. After prompts and QC are ready, mark the working project state as `video_prompts_ready`, then `waiting_video_approval`, and ask for explicit permission to render. Never auto-render video and never treat approval of prompts or images as approval to generate video.
+Check the current provider capabilities before writing provider syntax. Never assume duration, reference count, audio or lip-sync support.
+
+QC: durations match shots, motion matches narration, continuity holds across adjacent shots, and the bibles are respected.
+
+## Hard gate
+
+Show the S16 menu (`../../references/interaction-flow.md`).
+- Rendering is authorized **only** by "Generate videos", and only for the current package revision.
+- Name the provider before invoking it.
+- A material package change requires fresh approval.
+- Approval of content, script, storyboard, images or prompts never authorizes video.
+- Never auto-render.

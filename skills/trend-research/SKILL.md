@@ -1,41 +1,35 @@
 ---
 name: trend-research
-description: Perform tool-first current SocialOS niche and topic research, confirm connected research tools before use, study recent high-growth evidence, and produce evidence-based topic opportunities in one consolidated table.
+description: SocialOS niche discovery and breakout/trend topic research. Combine 7–10 day trends, the user-selected 30/60/90-day breakout window and reference gaps into one 20-row table (10 observed winners + 10 SocialOS opportunities).
 ---
 
 # Trend research
 
-Use for niche discovery, topic discovery, current viral/trending opportunities, title research and freshness-sensitive recommendations.
+Standards: `../../references/research-rubric.md`. State: `../../references/project-ledger.md`. Use only tools approved in `tools`. Reuse `REFERENCE_SET`, `SYNTHESIS` and `evidence_cache` instead of re-fetching them.
 
-## Mandatory tool discovery before topic suggestions
+## Niche mode
 
-Before suggesting current/trending topics, inspect available connected/installed research, trend, social, analytics, video or search tools/plugins when the host supports discovery.
+Used for a new channel with no niche and no references, or for standalone trending niches. Output one table of 10 niches with columns `# | Niche | Evidence | Recent Growth | Monetization | Competition | Visual Fit | Longevity | Opportunity`. Then ask: **Choose a niche number, type your own, or say More.** Then return to reference discovery.
 
-If a suitable tool is connected, ask the user for permission before using it. Name the tool and its purpose. If multiple are connected, offer a short numbered choice plus **Use best combination**. If none is connected, discover suitable available plugins/tools and offer relevant options to connect, preferring free/available options only when current metadata supports that claim. If the user declines, proceed with current host web/search research.
+## Topic mode
 
-Never silently use a newly discovered third-party research tool for this workflow.
+Requires the breakout window (S7) and the production profile. Ask the orchestrator for any missing field. Do not guess it.
 
-## Research scope
+Research:
+1. Trend window (7–10 days): what is accelerating.
+2. Breakout window: channels and videos with unusual momentum, using the rubric's breakout criteria.
+3. Structural check, only to separate emerging topics from evergreen ones.
+4. Reference gaps and whitespace from `SYNTHESIS`.
+5. Fit with the production type. For faceless, AI or animation channels, rank visually explainable topics higher.
 
-Use the platform, niche, channel production type, video/content type, duration and visual style already established. If one of these materially changes topic suitability and is unknown, return to the orchestrator for that one missing selection rather than guessing.
+## Output: one table only
 
-For a normal topic batch, target 20 rows:
+`# | Type | Topic / Proposed Title | Evidence | Recent Growth | Trend | Reach | Engagement | Monetization | Competition | Longevity | Visual Fit | Channel Fit | Opportunity`
 
-- Rows 1–10: **Observed evidence** — existing recent topics/videos/content patterns with strong signals. Emphasize evidence from the last 10 days where available. Also inspect relevant channels/content showing unusually strong recent growth over approximately 1–3 months when reliable public/tool data is available.
-- Rows 11–20: **New SocialOS opportunities** — original topic/title concepts derived from the observed evidence but made more distinctive, clickable and appropriate for the user's channel configuration. Do not merely paraphrase the observed titles.
+- Rows 1–10, `Observed`: real recent winners and patterns, each with an evidence source.
+- Rows 11–20, `SocialOS`: angle-engineered opportunities built from winners, trends, gaps, audience psychology, positioning and packaging. In the Evidence column, cite the basis (for example "Gap from #2/#5"). No paraphrased titles.
+- Rank rows by the internal opportunity method. Use labels only.
 
-If the user requested a different count, preserve an approximately 50/50 observed/new split unless they specify otherwise.
+Then ask only: **Choose a topic number, type your own topic, or say More for another 10 opportunities using the same criteria.**
 
-## Output format
-
-Return **one table only**, with no explanatory paragraphs. Recommended columns:
-
-`# | Set | Topic / Suggested Title | Source/Tool Signal | Recency | Growth/Trend Evidence | Reach Potential | Engagement Potential | Monetization Potential | Competition | Viral Potential | Longevity | Fit`
-
-Keep cells concise enough to scan. Rank by evidence-backed opportunity, not hype.
-
-After the table, ask only: **Choose a topic number or type your own. Type More if you want another batch using the same criteria.** Additional batches must use the same criteria, refresh evidence when necessary, and avoid duplicates.
-
-## Evidence discipline
-
-Never infer "heavy earnings" from views alone. Do not invent revenue, RPM/CPM, subscriber growth, search volume, trend scores or virality percentages. Use quantitative values only when the selected tool/source actually provides credible current data with context. Otherwise use qualitative labels and mark unknowns. Current claims must be based on current research, not model memory.
+**More**: use the same criteria, exclude every entry in `shown_titles`, and refresh trend evidence only if it is `stale`.

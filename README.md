@@ -1,20 +1,33 @@
-# SocialOS 2.0.1 — ChatGPT Web Edition
+# SocialOS 3.0.0
 
-SocialOS is a guided social-content workflow designed for ChatGPT web plugin installation.
+SocialOS is a reference-first, guided social-content operating system. It is a skills-only plugin that uses the host's web research, connected tools (with your approval) and image generation.
 
-It uses ChatGPT's available host capabilities for fresh web research, connected-plugin discovery, and image generation. It intentionally does not bundle a local stdio MCP server, Node runtime, database, or machine-specific dependencies.
+## Flow
 
-## Core behavior
+```
+Intent → Platform → New / Existing
+→ Reference gateway (mandatory) → Tool broker → Reference intelligence → Synthesis
+→ New: niche · positioning · names · identity   |   Existing: gap map
+→ Production profile → Style decision → STYLE-BIBLE-01
+→ Breakout window (30/60/90) → 20-row topic table (10 observed + 10 SocialOS)
+→ Packaging → Script (timed scene table) → Storyboard (CH → SC → SH)
+→ Master production package → Image gate → Test batch → QC → Remainder
+→ Revisions → Video prompts → QC → Explicit approval → Optional video
+```
 
-- Ask one consequential question at a time.
-- Use compact numbered choices and always accept custom answers.
-- Skip questions already answered by the user.
-- Use fresh research for current/trending/viral requests.
-- Guide new or existing channel workflows.
-- Build script → storyboard → scenes → shots → image prompts → images → video prompts.
-- Keep style/character/world/product consistency throughout production.
-- Never generate video without explicit user approval.
+## Rules
+
+- Asks one question at a time, only for decisions.
+- Never re-asks known information or repeats research.
+- Never fabricates earnings, transcripts, channel age or analytics.
+- Video renders only after you choose **Generate videos**.
+
+## References
+
+- [references/interaction-flow.md](references/interaction-flow.md): stage order, master diagram, menus
+- [references/project-ledger.md](references/project-ledger.md): state schema, statuses, reuse and invalidation
+- [references/research-rubric.md](references/research-rubric.md): evidence, windows, breakouts, integrity, opportunity method
 
 ## Start
 
-Mention `@SocialOS`. If no task is supplied, SocialOS begins with: “What would you like to do?”
+Mention `@SocialOS`.

@@ -1,16 +1,57 @@
 ---
 name: visual-production
-description: Establish SocialOS visual/video style and consistency, build character/world/product bibles, image prompts, image-generation batches and visual QC for storyboard shots.
+description: SocialOS visual system. Build STYLE-BIBLE-01 from the reference style profile plus the user's decision, canonical CHAR/WORLD/OBJECT bibles, the Master Production Package with timed shot prompts, the image gate, batched generation with visual QC, and dependency-aware revisions.
 ---
 
 # Visual production
 
-For content-creation intake, establish the visual/video style **before topic research** when style materially affects suitable topic packaging, especially for AI-generated, faceless, animated or highly visual channels. Do not wait until after the script if the orchestrator has not yet captured this choice.
+Menus: `../../references/interaction-flow.md` S6.5 and S12–S14.
 
-Offer a concise context-sensitive style menu plus Custom. Examples: Cinematic realistic; Documentary; Photorealistic; 3D/cartoon; 2D cartoon; Anime; Motion graphics/editorial; Minimal. Once chosen, keep one canonical style bible and only the recurring character, world, product and voice bibles actually needed.
+## Style
 
-Every shot image prompt must inherit the approved style and relevant recurring references. Specify subject/action, environment, composition, camera/lens where useful, lighting, continuity-critical details, aspect ratio and negative constraints without contradictions.
+STYLE-BIBLE-01 = reference `visual_profile` + style `decision`. It is never copied automatically. It defines:
+- art direction and realism/stylization
+- character rendering
+- lighting, color, camera/lens and composition
+- environment treatment, typography/graphics and textures
+- aspect ratio, negative constraints and continuity rules
 
-After prompts are prepared, ask whether to Generate all images; Generate a small first batch; Generate one chapter; Review prompts; or Self-generate. If host image generation is available and the user selects generation, use it and associate outputs with stable shot IDs. Large projects should be handled in resumable batches.
+It is drafted at S6.5 and locked after test-batch QC.
 
-Before video prompts, inspect generated/approved images for style, character, wardrobe, product, environment, branding, aspect-ratio and coverage inconsistencies. Fix only affected dependencies where possible.
+## Consistency
+
+Define recurring entities once: `CHAR-01` (face, age, hair, wardrobe, proportions), `WORLD-01` (environment, architecture, lighting logic) and `OBJECT-01`. Prompts reference these IDs and inherit their exact canonical descriptors. Never redescribe or alter them per shot. Once frames are approved, use them as image references where the host supports it.
+
+## Master Production Package
+
+Deliver one coherent document with these sections:
+- Project identity · Reference intelligence summary · Reference style profile · STYLE-BIBLE-01
+- Character, world and object bibles
+- Camera · Lighting · Color · Typography/graphics · Aspect ratio
+- Continuity rules · Global negative constraints
+- Chapters → scenes → shots
+
+Shot block:
+```
+CH01-SC003-SH002
+00:42–00:50 | 8 sec
+Narration: …
+References: STYLE-BIBLE-01, CHAR-01, WORLD-02
+Prompt: subject/action, environment, composition, camera, lighting, continuity details, aspect ratio
+Negative: …
+Motion intent: …
+```
+
+Keep every shot addressable internally for revisions.
+
+## Image generation
+
+Generate only after an S13 choice. Every run follows: test batch of 3–5 representative shots → QC → lock bibles → remaining batches. Do not ask the user to approve internal batches unless an issue is material. Link outputs to shot IDs.
+
+## QC
+
+Check style, identity, wardrobe, face/age, environment, objects, architecture, lighting, color, branding, typography, aspect ratio, prompt mismatch and coverage. Report exceptions only (S13.5). Fix causes at the source: correct the bible if it is shared, or the prompt if it is local. Claim visual inspection only if the host actually exposed the images. Otherwise say QC was not possible.
+
+## Revisions
+
+Resolve the entity, read `dependencies`, count the affected shots, then show the S14 menu. Update only the dependents and bump their versions. Never restart the project.

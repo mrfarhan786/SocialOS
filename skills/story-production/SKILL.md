@@ -1,12 +1,13 @@
 ---
 name: story-production
-description: Convert an approved SocialOS script into chapters, scenes and generation-sized shots/clips with stable IDs, timing, continuity and narration alignment.
+description: Convert an approved SocialOS script into Story → Chapter → Scene → Shot units with stable IDs, contiguous timestamps, generation-sized shots and dependency entries.
 ---
 
-# Story and storyboard production
+# Storyboard
 
-Use the hierarchy **story → chapters → scenes → shots/clips**. A scene is a narrative unit; a shot/clip is a generation unit. Do not equate a 10-second generator limit with scene length.
-
-Use stable hierarchical IDs: `CH01`, `CH01-SC001`, `CH01-SC001-SH001`. Calculate start times and durations so chapters, scenes and shots are contiguous and cover the target runtime. No shot may exceed the project's `max_clip_duration_seconds`.
-
-Create only meaningful scene boundaries. Divide each scene into shots that preserve visual continuity, narration timing and generator constraints. Keep the complete hierarchy in the working project context after the required bibles are available, preserving stable IDs so later revisions can target only affected chapters, scenes, or shots.
+- Hierarchy: Story → `CH01` → `CH01-SC001` → `CH01-SC001-SH001`. A scene is a narrative unit. A shot is a generation unit.
+- Keep script scene IDs. Split scenes into shots that respect `clip_limit_s`. Example: SC008 at 26 s becomes SH001 8 s · SH002 10 s · SH003 8 s.
+- Clip limit: use the provider's known limit. If it is unknown and matters, ask once: 1 5 s · 2 8 s · 3 10 s · 4 Custom.
+- Every unit has start, end and duration. Units are contiguous and cover the full runtime. No shot exceeds the limit.
+- Each shot records narration alignment, visual intent, and the CHAR/WORLD/OBJECT IDs it uses. Write `dependencies` (bible → shots, scene → shots).
+- Revisions change only affected units and preserve stable IDs.
