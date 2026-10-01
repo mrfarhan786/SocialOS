@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "social-os",
+  "version": "1.0.0",
+  "description": "Plan, create, adapt, review and analyze social content using a persistent local brand workspace, production manifests and real imported metrics.",
+  "keywords": ["social-media", "content", "production", "analytics", "local-workspace"]
+}
